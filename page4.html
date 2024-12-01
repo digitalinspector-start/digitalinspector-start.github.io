@@ -26,7 +26,7 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap"></noscript>
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300i,400i,500i,600i,700i,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300i,400i,500i,600i,700i,800i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=DQZ4V6"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=DQZ4V6" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=njW46U"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=njW46U" type="text/css">
 
   
   <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/5def35f81ba1f8df9ed150ac29bb7065.js"></script>
@@ -549,7 +549,11 @@ Poniżej znajduje się wzór formularza odstąpienia od umowy, z którego Konsum
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  
+  <script>
+  if (window.location.pathname.endsWith('.html')) {
+      window.history.replaceState({}, '', window.location.pathname.replace('.html', ''));
+  }
+</script>
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">
