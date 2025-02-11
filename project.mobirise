@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "analiza-seo-projektowanie-tresci-materialy-online.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "portfoliom4",
       "title": "PortfolioM4",
@@ -65,7 +65,7 @@
       "paymentSystem": "paypal"
     },
     "favicon": "@PROJECT_PATH@/assets/images/hyt_2.svg",
-    "mbrsiteDomain": "yqth7lv1b1",
+    "mbrsiteDomain": "e2zvumoekg",
     "usedWebp": true,
     "cssOptimize": true,
     "lazyLoad": true,
@@ -84,7 +84,7 @@
     "global_header_custom": "<script type=\"text/javascript\" charset=\"UTF-8\" src=\"//cdn.cookie-script.com/s/5def35f81ba1f8df9ed150ac29bb7065.js\"></script>\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-MGXJ43CF');</script>\n<!-- End Google Tag Manager -->",
     "cookiesAlert": false,
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MGXJ43CF\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
-    "global_footer_custom": "<script>\n  if (window.location.pathname.endsWith('.html')) {\n      window.history.replaceState({}, '', window.location.pathname.replace('.html', ''));\n  }\n</script>\n<script>window.onscroll = function() {\n    var scrollPosition = window.scrollY + window.innerHeight;\n    var targetSection = document.getElementById('cennik-umowa-zlecenie'); // Zmień na ID sekcji, po której chcesz wyświetlić pop-up\n    \n    // Sprawdzenie, czy sekcja jest widoczna\n    if (scrollPosition > targetSection.offsetTop) {\n        // Pokazanie pop-upa\n        document.getElementById('mbr-popup-zz').style.display = 'block'; // Zmień na ID swojego pop-upa\n    }\n};</script>",
+    "global_footer_custom": "<script>\n  if (window.location.pathname.endsWith('.html')) {\n      window.history.replaceState({}, '', window.location.pathname.replace('.html', ''));\n  }\n</script>",
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-ZVCPRFC3MP\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-ZVCPRFC3MP');\n</script>",
     "chatbutton": {
       "phone": "+12345678901",
@@ -24517,8 +24517,7 @@
       "settings": {
         "title": "SEO, Treści i Materiały Online | Skuteczna Analiza Twojej strony i przygotowanie trafnego contentu - nie czekaj, złap darmowa konsultację i popraw doświadczenia klientów.",
         "order": "1",
-        "meta_descr": "Profesjonalna analiza SEO, projektowanie angażujących treści i tworzenie materiałów online. Zwiększ widoczność swojej firmy i zdobądź więcej klientów!",
-        "meta_image": "@PROJECT_PATH@/assets/images/mbr-56-1920x1280.jpg"
+        "meta_descr": "Profesjonalna analiza SEO, projektowanie angażujących treści i tworzenie materiałów online. Zwiększ widoczność swojej firmy i zdobądź więcej klientów!"
       },
       "components": [
         {
